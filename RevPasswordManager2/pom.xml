@@ -50,6 +50,13 @@
             <version>5.5.0</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Explicitly adding Spring Web to address CVEs -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.38</version>
+        </dependency>
     </dependencies>
 
     <build>
